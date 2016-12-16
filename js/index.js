@@ -1,5 +1,5 @@
 /*Game Objects*/
-window.onload = function(){
+$(document).ready(function(){
 function Cal() {
     this.cals =  [];
     this.Ops = new Operations();
@@ -295,4 +295,4 @@ $(function() {
             putIn('-');
     });
 });
-};
+});
