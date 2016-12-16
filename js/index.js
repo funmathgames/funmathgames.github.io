@@ -153,7 +153,7 @@ var runGame;
 /*loop game*/
 function loop() {
     if(frames++ % 3 == 0) {
-        progressWidth += 2;
+        progressWidth += 5;
         $('#progress').css('width',  progressWidth + 'px');
     }
 

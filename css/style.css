@@ -1,4 +1,4 @@
- @import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 * {
     margin: 0;
@@ -6,20 +6,20 @@
 }
 
 body {
-    background-color: #69D2E7;
+    background-color: #F9BF3B;
     font-family: Montserrat, sans-serif;
     /* font-size: 50px; */
     text-align: center;
 }
 
 .wrapper {
-    background-color: #A7DBD8;
+    background-color: #fff;
     width: 520px;
     height: 350px;
     margin: 20px auto;
     position: relative;
     border-radius: 10px;
-    box-shadow: 6px 6px #AFE3E0;
+    box-shadow: 6px 6px #ECF0F1;
 }
 
 .cal {
@@ -51,9 +51,9 @@ body {
 }
 
 .btn {
-    background: #F38630;
+    background: #cb4e4e;
     color: #fff;
-    box-shadow: 0 6px #D1742A;
+    box-shadow: 0 6px #ab3c3c;
     border: none;
     font-size: 100px;
     font-weight: 900;
@@ -77,7 +77,7 @@ body {
 }
 
 .btn:hover {
-    box-shadow: 0 8px #C46D27;
+    box-shadow: 0 8px #ab3c3c;
     top: -2px;
 }
 
@@ -90,11 +90,11 @@ body {
     display: none;
     position: relative;
     padding : 5px 0;
-    background: #FA6900;
+    background: #2ca5d4;
     width: 520px;
     margin: 30px auto;
     border-radius: 5px;
-    box-shadow: 0 6px #C95500;
+    box-shadow: 0 6px #2980b9;
 }
 
 .control .ctrl-button {
@@ -106,7 +106,7 @@ body {
 
 .control:hover {
     top: -2px;
-    box-shadow: 0 8px #E05E00;
+    box-shadow: 0 8px #2980b9;
 }
 
 .ctrl:active {
@@ -130,18 +130,18 @@ body {
     left: 0;
     width: 0;
     height: 50px;
-    background-color: #FF9100;
+    background-color: #2980b9;
     border-radius: 5px;
 }
 
 /**/
 
 .game-over {
-    background: #FA2A00;
+    background: #87D37C;
     width: 520px;
     margin: 20px auto;
     padding: 15px 0;
-    box-shadow: 6px 6px #CC2200;
+    box-shadow: 6px 6px #3FC380;
     border-radius: 10px;
 }
 
